@@ -8,25 +8,17 @@ Built as a test assignment for Netpeak AI Solutions.
 
 ## How to Run
 
-### With Docker (Recommended)
-
+### With Docker
+```bash
 # 1. Copy the example env file and fill in your values
 cp .env.example .env
 
 # 2. Build and start
 docker compose up --build -d
+```
 
 The API will be available at `http://localhost:8000`.  
 Interactive docs (Swagger UI): `http://localhost:8000/docs`
-
-### Without Docker
-
-```bash
-cp .env.example .env
-
-poetry install
-poetry run uvicorn app.main:app --reload
-```
 
 ---
 
