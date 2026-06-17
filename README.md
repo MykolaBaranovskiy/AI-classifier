@@ -17,7 +17,7 @@ docker compose up --build -d
 ```
 
 The API will be available at `http://localhost:8000`.  
-Interactive docs (Swagger UI): `http://localhost:8000/docs`
+Interactive docs (Swagger UI): `http://localhost:8000/docs` - test API here
 
 ---
 
