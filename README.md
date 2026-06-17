@@ -8,7 +8,6 @@ Built as a test assignment for Netpeak AI Solutions.
 
 ## How to Run
 
-### With Docker
 ```bash
 # 1. Copy the example env file and fill in your values
 cp .env.example .env
